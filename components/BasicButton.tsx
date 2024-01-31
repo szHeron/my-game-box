@@ -6,7 +6,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function BasicButton(props: ButtonProps){
     return (
-        <button {...props} className="bg-primaryGreen p-4 rounded-md shadow-md font-bold">
+        <button {...props} className="bg-green p-4 rounded-md shadow-md font-bold">
             {props.text}
         </button>
     )

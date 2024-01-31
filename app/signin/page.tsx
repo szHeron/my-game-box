@@ -35,13 +35,13 @@ export default function SignIn() {
                         <BasicInput erro={erros.email} onChange={(text)=>setLogin({...login, email: text.target.value})} label="Email"/>
                         <BasicInput erro={erros.password} onChange={(text)=>setLogin({...login, password: text.target.value})} label="Senha"/>
                         <Link href="/signup" className="self-end mb-4">
-                            <p className="text-white text-sm font-semibold cursor-pointer">Já possui uma conta? <span className="text-primaryGreen">Entre aqui</span></p>
+                            <p className="text-white text-sm font-semibold cursor-pointer">Já possui uma conta? <span className="text-green">Entre aqui</span></p>
                         </Link>
                         <BasicButton text="Entrar"/>
                     </form>
                 </div>
             </main>
-            <aside className="hidden flex-1 flex-col bg-primaryGreen md:flex">
+            <aside className="hidden flex-1 flex-col bg-green md:flex">
                 <div className="flex flex-col items-center justify-center h-full">
                     <h1 className="font-bold text-6xl mt-4">Entrar</h1>
                 </div>

@@ -9,9 +9,11 @@ const config: Config = {
   theme: {
     colors: {
       'primaryBlack': '#191E29',
-      'primaryBlue': '#132d46',
-      'primaryGreen': '#01C38D',
-      'primaryGray': '#696E79',
+      'primaryBlue': '#2D3250',
+      'secundaryBlue': '#424769',
+      'tertiaryBlue': '#676F9D',
+      'green': '#01C38D',
+      'gray': '#696E79',
       'white': '#fff'
     },
     extend: {

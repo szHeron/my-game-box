@@ -10,7 +10,7 @@ export function BasicInput(props: InputProps){
         <div className="flex flex-col">
             <label>{props.label}</label>
             <input
-                className="bg-primaryGray text-[#000] mb-4 p-2 rounded w-full"
+                className="bg-gray text-white mb-4 p-2 rounded w-full"
                 {...props}
             />
             <span className="text-[#ff3333] self-end">{props.erro}</span>

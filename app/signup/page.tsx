@@ -40,13 +40,13 @@ export default function SignIn() {
                         <BasicInput erro={erros.password} onChange={(text)=>setLogin({...login, password: text.target.value})} label="Senha"/>
                         <BasicInput erro={erros.confirmPassword} onChange={(text)=>setLogin({...login, confirmPassword: text.target.value})} label="Confirme sua senha"/>
                         <Link href="/signin" className="self-end mb-4">
-                            <p className="text-white text-sm font-semibold cursor-pointer">Não possui uma conta? <span className="text-primaryGreen">Crie aqui</span></p>
+                            <p className="text-white text-sm font-semibold cursor-pointer">Não possui uma conta? <span className="text-green">Crie aqui</span></p>
                         </Link>
                         <BasicButton text="Criar"/>
                     </form>
                 </div>
             </main>
-            <aside className="hidden flex-1 flex-col bg-primaryGreen md:flex">
+            <aside className="hidden flex-1 flex-col bg-green md:flex">
                 <div className="flex flex-col items-center justify-center h-full">
                     <h1 className="font-bold text-6xl mt-4">Cadastrar</h1>
                 </div>
