@@ -42,7 +42,9 @@ export default function SignIn() {
                         <Link href="/signin" className="self-end mb-4">
                             <p className="text-white text-sm font-semibold cursor-pointer">Não possui uma conta? <span className="text-green">Crie aqui</span></p>
                         </Link>
-                        <BasicButton text="Criar"/>
+                        <BasicButton>
+                            Criar
+                        </BasicButton>
                     </form>
                 </div>
             </main>

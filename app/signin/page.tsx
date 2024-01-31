@@ -37,7 +37,9 @@ export default function SignIn() {
                         <Link href="/signup" className="self-end mb-4">
                             <p className="text-white text-sm font-semibold cursor-pointer">Já possui uma conta? <span className="text-green">Entre aqui</span></p>
                         </Link>
-                        <BasicButton text="Entrar"/>
+                        <BasicButton>
+                            Entrar
+                        </BasicButton>
                     </form>
                 </div>
             </main>
